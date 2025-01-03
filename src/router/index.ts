@@ -10,7 +10,7 @@ import { routes } from 'vue-router/auto-routes'
 // import Guard from '@/services/middeware.js'
 
 // Importação dos componentes
- const Home = () => import( '@/components/Home.vue')
+const Home = () => import( '@/components/Home.vue')
 const Explicacao = () => import('@/components/Explicacao.vue');
 const Calc = () => import('@/components/Calc.vue');
 const LoginForm = () => import('@/components/LoginForm.vue');
